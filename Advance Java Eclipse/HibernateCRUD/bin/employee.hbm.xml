@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="Employee" table="hibernate_create_insert_update_delete">
+<id name="id" type="int" column="id"> </id>
+<property name="firstName" column="first_name" type="string"/>
+<property name="LastName" column="last_name" type="string"/>
+<property name="salary" column="salary" type="int"/>
+
+</class>
+
+</hibernate-mapping>
